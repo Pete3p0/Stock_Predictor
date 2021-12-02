@@ -22,8 +22,8 @@ st.title("Stock Prediction App")
 # List of stocks
 
 stocks_dict = {'Please select':'', '1nvest S&P500':'ETF5IT.JO', 'African Rainbow Minerals Limited':'ARI.JO', 'Apple':'AAPL', 'ARK Innovation ETF': 'ARKK', 'Discovery':'DSY.JO', 'EOH Holdings Limited':'EOH.JO',
-                                     'Google':'GOOG', 'Microsoft':'MSFT', 'Tongaat Hulett Limited': 'TON.JO'}
-stocks = ('Please select', '1nvest S&P500', 'African Rainbow Minerals Limited', 'Apple', 'ARK Innovation ETF', 'Discovery', 'EOH Holdings Limited', 'Google', 'Microsoft', 'Tongaat Hulett Limited')
+                                     'Google':'GOOG', 'Microsoft':'MSFT', 'Tongaat Hulett Limited': 'TON.JO', 'ZAR/USD':'USDZAR=X'}
+stocks = ('Please select', '1nvest S&P500', 'African Rainbow Minerals Limited', 'Apple', 'ARK Innovation ETF', 'Discovery', 'EOH Holdings Limited', 'Google', 'Microsoft', 'Tongaat Hulett Limited', 'ZAR/USD')
 selected_stock = st.selectbox("Select stock for prediction", stocks)
 
 st.write('Stock selected:', stocks_dict[selected_stock])
